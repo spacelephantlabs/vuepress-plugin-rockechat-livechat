@@ -1,0 +1,26 @@
+{
+  "name": "@spacelephantlabs/vuepress-plugin-rocketchat-livechat",
+  "version": "1.0.0",
+  "description": "Rocket.chat Livechat plugin for vuepress >= 1.0",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:spacelephantlabs/vuepress-plugin-rocketchat-livechat.git"
+  },
+  "keywords": [
+    "documentation",
+    "vue",
+    "vuepress",
+    "generator",
+    "rocket.chat"
+  ],
+  "author": "contact@spacelephant.org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spacelephantlabs/vuepress-plugin-rocketchat-livechat/issues"
+  },
+  "homepage": "https://github.com/spacelephantlabs/vuepress-plugin-rocketchat-livechat/"
+}
