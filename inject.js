@@ -1,4 +1,4 @@
-/* global MATOMO_SITE_ID, MATOMO_TRACKER_URL, MATOMO_ENABLE_LINK_TRACKING, MATOMO_REQUIRE_CONSENT, MATOMO_REMEMBER_CONSENT, MATOMO_TRACKER_JS_FILE, MATOMO_TRACKER_PHP_FILE */
+/* global ROCKET_CHAT_URL */
 
 // Matomo integration. This is mostly a generalized version of the basic matomo
 // tracker code you'd insert in a JS page. However, since vuepress is SSR, it
@@ -21,7 +21,7 @@ export default () => {
       w.RocketChat._ = [];
       w.RocketChat.url = u;
       var d = document;
-      var h = d.getElementsByTagName(s)[0],
+      var h = d.getElementsByTagName("script")[0],
         j = d.createElement("script");
       j.async = true;
       j.src = u + "rocketchat-livechat.min.js?_=201903270000";
