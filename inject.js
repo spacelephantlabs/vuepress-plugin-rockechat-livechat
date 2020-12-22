@@ -13,7 +13,7 @@ export default () => {
     ROCKET_CHAT_URL
   ) {
     (function () {
-      var u = ROCKET_CHAT_URL + "livechat/";
+      var u = ROCKET_CHAT_URL + "livechat";
       var w = window;
       w.RocketChat = function (c) {
         w.RocketChat._.push(c);
@@ -24,7 +24,7 @@ export default () => {
       var h = d.getElementsByTagName("script")[0],
         j = d.createElement("script");
       j.async = true;
-      j.src = u + "rocketchat-livechat.min.js?_=201903270000";
+      j.src = u + "/rocketchat-livechat.min.js?_=201903270000";
       h.parentNode.insertBefore(j, h);
     })();
   }
