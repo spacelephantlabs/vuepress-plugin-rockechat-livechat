@@ -6,10 +6,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+git@github.com:spacelephantlabs/vuepress-plugin-rocketchat-livechat.git"
-  },
+  "repository": "git+git@github.com:spacelephantlabs/vuepress-plugin-rocketchat-livechat.git",
   "keywords": [
     "documentation",
     "vue",
@@ -17,10 +14,11 @@
     "generator",
     "rocket.chat"
   ],
-  "author": "contact@spacelephant.org",
+  "author": "Space Elephant SAS <developers@spacelephant.org>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/spacelephantlabs/vuepress-plugin-rocketchat-livechat/issues"
   },
-  "homepage": "https://github.com/spacelephantlabs/vuepress-plugin-rocketchat-livechat/"
+  "homepage": "https://github.com/spacelephantlabs/vuepress-plugin-rocketchat-livechat/",
+  "private": false
 }
