@@ -22,10 +22,14 @@
   "homepage": "https://github.com/spacelephantlabs/vuepress-plugin-rocketchat-livechat/",
   "private": false,
   "scripts": {
+    "prepare": "husky install",
     "release": "release-it"
   },
   "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
     "@release-it/conventional-changelog": "^2.0.1",
+    "husky": "^6.0.0",
     "release-it": "^14.6.1"
   }
 }
