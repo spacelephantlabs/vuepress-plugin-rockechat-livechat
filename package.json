@@ -1,6 +1,6 @@
 {
   "name": "@spacelephantlabs/vuepress-plugin-rocketchat-livechat",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha",
   "description": "Rocket.chat Livechat plugin for vuepress >= 1.0",
   "main": "index.js",
   "publishConfig": {
