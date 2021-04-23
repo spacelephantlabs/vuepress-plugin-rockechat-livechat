@@ -20,5 +20,12 @@
     "url": "https://github.com/spacelephantlabs/vuepress-plugin-rocketchat-livechat/issues"
   },
   "homepage": "https://github.com/spacelephantlabs/vuepress-plugin-rocketchat-livechat/",
-  "private": false
+  "private": false,
+  "scripts": {
+    "release": "release-it"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^2.0.1",
+    "release-it": "^14.6.1"
+  }
 }
